@@ -1,10 +1,14 @@
 # Awesome Telegram [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![CI](https://github.com/ebertti/awesome-telegram/actions/workflows/ci.yml/badge.svg)](https://github.com/ebertti/awesome-telegram/actions/workflows/ci.yml)
 
+
 A curated list of [Telegram](https://telegram.org) resources.
+
 
 Join our supergroup on Telegram: [![@awesometelegram](https://img.shields.io/badge/%F0%9F%92%AC%20Telegram-%40awesometelegram-blue.svg)](https://telegram.me/awesometelegram)
 
+
 ## Contents
+
 
 - [Bots](#bots)
   - [Inline Bots](#inline-bots)
@@ -37,7 +41,9 @@ Join our supergroup on Telegram: [![@awesometelegram](https://img.shields.io/bad
   - [AI Security](#ai-security)
   - [Cybersecurity](#cybersecurity)
 
+
 ## Bots
+
 
 * [@airnope_bot](https://telegram.me/airnope_bot) is an [open-source](https://github.com/cuducos/airnope) bot to keep groups clean from cryptocurrency ”airdrop” spam
 * [@AccountCreatedBot](https://t.me/AccountCreatedBot) – Get Telegram account information and estimated creation dates using various methods.
@@ -102,9 +108,12 @@ Join our supergroup on Telegram: [![@awesometelegram](https://img.shields.io/bad
 * [Telegram Delay Channel Cloner](https://github.com/GeiserX/telegram-delay-channel-cloner) – Self-hosted bot that re-broadcasts messages from one of your own channels to another after a configurable delay (requires bot admin rights on both source and target channels).
 * [TikTok Live Recorder | TikRec](https://t.me/tikrec_live_bot) – [Open Source](https://github.com/Michele0303/tiktok-live-recorder) bot that records TikTok live streams and delivers the MP4 to your Telegram chat. Free, with a public archive at [tikrec.com](https://tikrec.com).
 
+
 ### Inline Bots
 
+
 In all inline bots, you need to enter @botname, type words and wait for response (~1 second)
+
 
 * [@asciifacesbot](https://telegram.me/asciifacesbot) – Bot that allows you to append ascii faces to your messages ¯\_(ツ)_/¯
 * [@automemebot](https://telegram.me/automemebot) – Powerfull meme generator.
@@ -130,7 +139,9 @@ In all inline bots, you need to enter @botname, type words and wait for response
 * [@vote](https://telegram.me/vote) – Official Pool generator on your conversation.
 * [@wiki](https://telegram.me/wiki) – Official Articles from Wikipedia.
 
+
 ### Games
+
 
 * [@awesomebot](https://telegram.me/awesomebot) – Simple HTML5 games. All games are open source.
 * [@gamebot](https://telegram.me/gamebot) – Official telegram bot for HTML5 gaming.
@@ -145,14 +156,18 @@ Challenge your friends in MULTIPLAYER mode!
 * [@TrueMafiaBot](https://t.me/TrueMafiaBot) – Play Mafia in Telegram groups.
 * [@unobot](https://telegram.me/unobot) – UNO Bot.
 
+
 ### Bot Development
+
 
 * [@BotFather](https://telegram.me/botfather) – Official bot to create new bot accounts and manage your existing bots.
 * [@botoid](https://t.me/botoid) – Telegram Developers chat (ru).
 * [@BotSupport](https://telegram.me/botsupport) – Official bot for platform support.
 * [Papercraft Book](https://papercraft.tmat.me/book) – Learn to develop user-friendly, feature-rich, and stable bots.
 
+
 ### Bot Libs
+
 
 #### Python
  * [AIOGram](https://github.com/aiogram/aiogram) – A pretty simple and fully asynchronous framework for Telegram Bot API.
@@ -171,6 +186,7 @@ Challenge your friends in MULTIPLAYER mode!
  * [telethon](https://github.com/LonamiWebs/Telethon) – Pure Python 3 MTProto API Telegram client library, for bots too!
  * [tgbot](https://github.com/PaulSonOfLars/tgbot) – Modular telegram group management bot
 
+
 #### Javascript/Typescript/Node
  * [@mtproto/core](https://github.com/alik0211/mtproto-core) – Telegram API (MTProto) client library for browser and nodejs
  * [GramIO](https://github.com/gramiojs/gramio) – Powerful, extensible and really type-safe Telegram Bot API framework
@@ -183,6 +199,7 @@ Challenge your friends in MULTIPLAYER mode!
  * [tg-rich-messages](https://github.com/vdistortion/tg-rich-messages) – Platform-independent TypeScript builder for Telegram Rich Messages (HTML mode). Zero dependencies, fully typed, tree-shakeable.
  * [MTKruto](https://github.com/MTKruto/MTKruto) – Cross-runtime JavaScript library for building Telegram clients.
 
+
 #### .Net (C#)
  * [telegram.bot](https://github.com/MrRoundRobin/telegram.bot) – Telegram Bot API - C# Client
  * [TLSharp](https://github.com/sochix/TLSharp) – Client library implemented in C#. Waiting for contributors!
@@ -192,6 +209,7 @@ Challenge your friends in MULTIPLAYER mode!
  * [telegram-bot-ruby](https://github.com/atipugin/telegram-bot-ruby) – Ruby wrapper for Telegram's Bot API
  * [telegram-rb](https://github.com/ssut/telegram-rb) – A Ruby wrapper that communicates with the Telegram-CLI
  * [telegram_bot](https://github.com/eljojo/telegram_bot) – A charismatic Ruby client for Telegram's Bot API
+
 
 #### PHP
   * [MadeLineProto](https://github.com/danog/MadelineProto) – Async PHP client/server API for the telegram MTProto protocol.
@@ -209,20 +227,24 @@ Challenge your friends in MULTIPLAYER mode!
 * [telebot](https://github.com/tucnak/telebot) – Telegram bot framework written in Go
 * [telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) – Golang bindings for the Telegram Bot API.
 
+
 #### Java
 * [java-telegram-bot-api](https://github.com/pengrad/java-telegram-bot-api) – Telegram Bot API for Java.
 * [telegram-api](https://github.com/ex3ndr/telegram-api) – Telegram Api library for java.
 * [telegram-menu-library](https://github.com/AnyTimeTraveler/telegram-menu-library) – Java library that makes creating and managing clickable menus easy ([demo](https://raw.githubusercontent.com/AnyTimeTraveler/telegram-menu-library/master/media/telegram_media_library_demo.gif)).
 * [TelegramBots](https://github.com/rubenlagus/TelegramBots) – Java library to create bots using Telegram Bots API.
 
+
 #### C++
 * [telegram-bot-api](https://github.com/StefanoBelli/xxtelebot) – C++ Telegram Bot API.
 * [tgbot-cpp](https://github.com/reo7sp/tgbot-cpp) – C++ library for Telegram bot API.
 * [Universal-Arduino-Telegram-Bot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot) – A Arduino Telegram Bot API.
 
+
 #### Rust
 * [Frankenstein](https://github.com/ayrat555/frankenstein) – Telegram bot API client for Rust.
 * [gramme.rs](https://github.com/Lonami/grammers) – A set of Rust libraries for Telegram API, with high-level client interface and MTProto implementation.
+
 
 #### Kotlin
 * [kotlin-telegram-bot](https://github.com/seik/kotlin-telegram-bot) – A wrapper for the Telegram Bot API written in Kotlin.
@@ -230,20 +252,27 @@ Challenge your friends in MULTIPLAYER mode!
 * [KtGram](https://github.com/vendelieu/telegram-bot) – Telegram Bot API wrapper with handy Kotlin DSL.
 * [tgbotapi](https://github.com/InsanusMokrassar/TelegramBotAPI) – Type-safe library for work with Telegram Bot API.
 
+
 #### Crystal
 * [Tourmaline](https://github.com/watzon/tourmaline) – Batteries included Telegram bot API wrapper for Crystal
+
 
 #### Dart
 * [TeleDart](https://github.com/DinoLeung/TeleDart) – A Dart library interfacing with the latest Telegram Bot API.
 
+
 #### FreePascal
   * [fp-telegram](https://github.com/Al-Muhandis/fp-telegram) – FreePascal wrapper for Telegram's bot API
 
+
 #### Example by Telegram
+
 
 [https://core.telegram.org/bots/samples](https://core.telegram.org/bots/samples)
 
+
 ## Tools
+
 
  * [BanOnExit](https://github.com/BotMaven/BanOnExit) – Automatically ban users who join and leave your Telegram groups or channels within a configurable time frame
  * [Jellyfin Telegram Channel Sync](https://github.com/GeiserX/jellyfin-telegram-channel-sync) – Syncs Jellyfin user access with Telegram channel membership.
@@ -263,12 +292,16 @@ Challenge your friends in MULTIPLAYER mode!
  * [TGPy](https://tgpy.dev) – Run Python code in Telegram chats. Automate your messages and explore Telegram API
  * [Untether](https://github.com/littlebearapps/untether) – Self-hosted bot bridging AI coding agents to Telegram with inline keyboards, voice transcription, real-time streaming, and file transfer.
 
+
 ## Themes
+
 
  * [Another Storm](https://github.com/MairwunNx/AnotherStorm) – The most popular true dark theme for Telegram Desktop.
  * [Dracula](https://github.com/dracula/telegram) – A dark theme for Telegram Desktop
 
+
 ## Groups
+
 
 * [@awesometelegram](https://telegram.me/awesometelegram) – Official group for this awesome list.
 * [@css_ru](https://t.me/css_ru) – Discussion about CSS, and solving issues
@@ -281,14 +314,18 @@ Challenge your friends in MULTIPLAYER mode!
 * [awesome-telegram-dev-groups-uz](https://github.com/doniyor2109/awesome-telegram-dev-groups-uz) – Collection of Uzbek Telegram dev groups
 * [The Devs Group](https://thedevs.network/) – A network of groups for developers and programmers.
 
+
 ## Channels
 
+
 ### Official
+
 
 * [BotNews](https://telegram.me/botnews) – The official source for news about the Telegram Bot API.
 * [Durov's Channel](https://telegram.me/durov) – The official durov's (founder) channel.
 * [Telegram Desktop](https://telegram.me/desktop) – The official source for news about Telegram Desktop updates.
 * [Telegram](https://telegram.me/telegram) – The official Telegram news on Telegram.
+
 
 ### Unofficial
 * [Agile Methods](https://t.me/agilemethods) – Books, blog posts, conferences and much more about agile methods.
@@ -314,14 +351,18 @@ Challenge your friends in MULTIPLAYER mode!
 * [travelpics](https://telegram.me/travelpics) – Best photos from all over the world.
 * [WorldChannels](https://telegram.me/WorldChannels) – World catalog of Telegram Channels and Bots.
 
+
 ## Bot Stores
+
 
 * [Telegram Bot List](https://botlist.net/bots/telegram)
 * [Telegram Bot Store (StoreOfBot)](https://telegram.me/StoreOfBot)
 * [Telegram Bot Store](https://storebot.me)
 * [tgdev.io](https://tgdev.io/) – List of boots
 
+
 ## Telegram Directory
+
 
 * [Awesome DevOps Telegram](https://github.com/palark/awesome-devops-telegram) – A curated list of Telegram channels and groups dedicated to DevOps, SRE, and Platform Engineering in English.
 * [Awesome-grammY](https://github.com/grammyjs/awesome-grammY) – This is a curated list of projects that are using grammY.
@@ -332,7 +373,10 @@ Challenge your friends in MULTIPLAYER mode!
 * [TGMania](https://tgmania.com/) – Searchable directory of 70,000+ Telegram channels and groups by category, country and language, with a 0-10 quality score per channel and a free public JSON API.
 * [tgram.io](https://tgram.io/) – Telegram groups list, telegram group chat, telegram chat rooms, telegram groups to join
 
+* [TGboard](https://tgboard.com/en) – Multilingual directory for discovering Telegram channels, groups, bots, Mini Apps, and sticker packs.
+
 ## Community Forums
+
 
 * Reddit:
   * [/r/Telegram](https://www.reddit.com/r/Telegram): General subreddit.
@@ -341,9 +385,13 @@ Challenge your friends in MULTIPLAYER mode!
 * [Telegram Developers Community](https://storebot.me/)
 
 
+
+
 ## Security
 
+
 ### AI Security
+
 
 * [AGI Security](https://t.me/agisec) – (EN) “Artificial General Intelligence Security” — discussions and links around long-term AGI security, safety and existential-risk-flavoured topics.
 * [AI Attacks](https://t.me/aiattacks) – (EN) Stream of AI attack examples and threat intelligence: adversarial ML, LLM jailbreak demos, malicious AI use-cases, attack tooling.
@@ -361,10 +409,14 @@ Challenge your friends in MULTIPLAYER mode!
 * [Борис_ь с ml](https://t.me/borismlsec)  – (RU) ML + InfoSec: long-form analyses, conference recaps and practical viewpoints on ML, data science and cyber/AI security.
 * [Евгений Кокуйкин — Raft](https://t.me/kokuykin) – (RU) Building Raft AI and GPT-based applications. A lot of hands-on posts on building products with LLMs, including trust & safety, reliability and security concerns.
 
+
 ### Cybersecurity
+
 
 * [@yazoul](https://t.me/yazoul) – Automated CVE advisories, data breach alerts, dark web intel, and correlated threat news. Updated daily.
 
+
 ## License
+
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
